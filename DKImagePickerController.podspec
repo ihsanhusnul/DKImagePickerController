@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform      = :ios, "8.0"
   s.source        = { :git => "https://github.com/zhangao0086/DKImagePickerController.git", 
                      :tag => s.version.to_s }
-  
+  s.resource      = "DKImagePickerController.bundle"
   s.requires_arc  = true
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
